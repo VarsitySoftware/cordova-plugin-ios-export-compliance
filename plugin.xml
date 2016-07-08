@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-ios-export-compliance"
+        version="0.0.1">
+    <name>IOS ExportCompliance</name>
+    <description>IOS ExportCompliance Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,export,compliance</keywords>
+    <repo>https://github.com/VarsitySoftware/cordova-plugin-ios-export-compliance.git</repo>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+        <false/>
+      </config-file>
+    </platform>
+
+</plugin>
