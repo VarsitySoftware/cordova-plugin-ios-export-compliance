@@ -1,0 +1,18 @@
+{
+    "version": "0.0.1",
+    "name": "cordova-export-compliance",
+    "cordova_name": "IOS ExportCompliance",
+    "description": "IOS ExportCompliance Plugin",
+    "license": "MIT",
+    "repo": "https://github.com/VarsitySoftware/cordova-plugin-ios-export-compliance.git",
+    "keywords": [
+        "cordova",
+        "ios",
+        "ITSAppUsesNonExemptEncryption"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
